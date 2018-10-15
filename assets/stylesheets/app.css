@@ -1,0 +1,138 @@
+/* Helpers */
+.text-center {
+  text-align: center;
+}
+
+.no-style {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* App */
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  color: #333;
+  letter-spacing: 1.5px;
+}
+
+.actions {
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* .actions li { */
+.actions a {
+  margin-right: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 86px;
+  line-height: 78px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 300;
+  opacity: .7;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  opacity: .7;
+}
+
+ul {
+  padding: 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+.icon {
+  height: 24px;
+}
+
+.main {
+  padding: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #7e5ecb;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  opacity: .5;
+}
+
+.img {
+  width: 100%;
+}
+
+footer {
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.purple {
+  color: #7e5ecb;
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 25px 0px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .actions {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .actions a {
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .hidden-xs {
+    display: none;
+  }
+
+  .btn {
+    padding: 20px;
+    font-size: 16px;
+  }
+}
